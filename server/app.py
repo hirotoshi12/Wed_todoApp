@@ -1,7 +1,10 @@
 from flask import Flask, request
+from flask_cors import CORS
+
 
 # 自身の名称を app という名前でインスタンス化する
 app = Flask(__name__)
+CORS(app)
 
 # 文字化け対策
 app.config['JSON_AS_ASCII'] = False
