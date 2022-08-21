@@ -1,0 +1,23 @@
+h1 {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    font-style: italic;
+    border: solid 2px blue;
+    background-color: black;
+    margin: auto;
+}
+
+#parent-list {
+    background-color: lightgreen;
+    line-height: 2;
+    margin: auto;
+}
+
+
+#complete-list {
+    background-color: pink;
+    line-height: 2;
+    text-decoration: line-through;
+    margin: auto;
+}
